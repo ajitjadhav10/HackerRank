@@ -13,3 +13,7 @@ LIMIT 1)
 Result:
 Marine On Saint Croix 21
 Amo 3
+
+Comments: 
+1. The SQL *UNION ALL* operator is used to combine the result sets of 2 or more SELECT statements. It does not remove duplicate rows between the various SELECT statements (all rows are returned).
+2. LIMIT: MYSQL uses *LIMIT* clause to specify the number of records to return, some databases use the *TOP* clause.
